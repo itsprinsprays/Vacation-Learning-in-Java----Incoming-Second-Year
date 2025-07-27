@@ -1,5 +1,6 @@
-package Day3;
-import Day1.print;
+package Day3_Constructors;
+import Day1_Methods.print;
+
 import java.util.Scanner;
 public class Product {
 	

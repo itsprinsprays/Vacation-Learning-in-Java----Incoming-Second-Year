@@ -1,4 +1,5 @@
-package Day7;
+package Day7_Polymorphism;
+
 
 public class Employee {
 	

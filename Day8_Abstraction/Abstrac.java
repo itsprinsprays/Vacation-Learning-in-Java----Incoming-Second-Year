@@ -1,5 +1,5 @@
-package Day8;
-import Day1.print;
+package Day8_Abstraction;
+import Day1_Methods.print;
 import java.util.Scanner;
 public class Abstrac {
 

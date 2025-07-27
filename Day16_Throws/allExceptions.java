@@ -1,4 +1,4 @@
-package Day16_throws;
+package Day16_Throws;
 import java.util.Scanner;
 public class allExceptions {
 	

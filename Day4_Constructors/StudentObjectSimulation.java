@@ -1,6 +1,8 @@
-package Day4;
+package Day4_Constructors;
+
+import Day1_Methods.print;
 import java.util.Scanner;
-import Day1.print;
+
 
 public class StudentObjectSimulation {
 

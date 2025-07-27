@@ -1,4 +1,4 @@
-package Day10_Array;
+package Day10_ArrayOfObject;
 import java.util.Scanner;
 public class Student {
 	

@@ -1,4 +1,4 @@
-package Day12_Arraylist;
+package Day12_ArrayList;
 
 import java.util.ArrayList;
 public class main {

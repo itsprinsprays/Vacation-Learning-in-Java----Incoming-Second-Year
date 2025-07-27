@@ -1,5 +1,5 @@
-package Day2;
-import Day1.print;
+package Day2_ClassObjects;
+import Day1_Methods.print;
 import java.util.Scanner;
 public class ClassObjects {
 

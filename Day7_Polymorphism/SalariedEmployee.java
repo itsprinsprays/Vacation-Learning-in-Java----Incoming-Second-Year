@@ -1,5 +1,5 @@
-package Day7;
-import Day1.print;
+package Day7_Polymorphism;
+import Day1_Methods.print;
 public class SalariedEmployee extends Employee{
 	
 	@Override

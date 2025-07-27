@@ -1,7 +1,8 @@
-package Day8;
+package Day8_Abstraction;
+import Day1_Methods.print;
 import java.util.Scanner;
 
-import Day1.print;
+
 public abstract class BankAccount {
 	
 	 double balance,interest,netpay;

@@ -1,4 +1,4 @@
-package Day5;
+package Day5_Encapsulation;
 
 import java.awt.BorderLayout;
 import java.sql.Connection;

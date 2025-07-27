@@ -1,4 +1,4 @@
-package Day15_HashMap;
+package Day15_Hashmap;
 
 
 import java.util.ArrayList;

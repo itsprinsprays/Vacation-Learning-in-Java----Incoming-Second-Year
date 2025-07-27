@@ -1,4 +1,4 @@
-package Day5;
+package Day5_Encapsulation;
 
 import javax.swing.JOptionPane;
 

@@ -1,5 +1,5 @@
-package Day10_Array;
-import Day1.print;
+package Day10_ArrayOfObject;
+import Day1_Methods.print;
 public class Employee {
 	String firstname,lastname,jobtitle;
 	

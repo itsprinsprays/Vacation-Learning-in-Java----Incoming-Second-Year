@@ -1,4 +1,4 @@
-package Day12_Arraylist;
+package Day12_ArrayList;
 
 public class Student {
 	

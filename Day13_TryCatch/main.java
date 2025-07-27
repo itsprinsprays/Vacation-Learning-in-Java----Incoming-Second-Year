@@ -1,4 +1,4 @@
-package Day13_tryCatch;
+package Day13_TryCatch;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

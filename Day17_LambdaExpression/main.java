@@ -1,4 +1,4 @@
-package Day17_Lambda;
+package Day17_LambdaExpression;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class main {

@@ -1,5 +1,5 @@
-package Day6;
-import Day1.print;
+package Day6_Inheritance;
+import Day1_Methods.print;
 public class Animal {
 	
 	private String name,types;

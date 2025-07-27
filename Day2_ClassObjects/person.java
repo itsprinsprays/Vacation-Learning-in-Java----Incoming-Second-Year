@@ -1,5 +1,6 @@
-package Day2;
-import Day1.print;
+package Day2_ClassObjects;
+import Day1_Methods.print;
+
 public class person {
 
 	public person(String firstname,String lastname, int age,char sex) {

@@ -1,4 +1,4 @@
-package Day16_throws;
+package Day16_Throws;
 
 public class InvalidEmailException extends Exception{
 	

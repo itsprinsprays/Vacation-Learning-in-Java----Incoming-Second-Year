@@ -1,5 +1,5 @@
-package Day8;
-import Day1.print;
+package Day8_Abstraction;
+import Day1_Methods.print;
 public class FixedDepositAccount extends BankAccount{
 	
 	int years;

@@ -1,5 +1,5 @@
-package Day4;
-import Day1.print;
+package Day4_Constructors;
+import Day1_Methods.print;
 import java.util.Scanner;
 
 public class StudentInfo {

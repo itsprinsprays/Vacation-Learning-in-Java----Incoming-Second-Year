@@ -1,5 +1,5 @@
-package Day7;
-import Day1.print;
+package Day7_Polymorphism;
+import Day1_Methods.print;
 import java.util.Scanner;
 
 public class CommissionEmployee extends Employee{

@@ -1,4 +1,4 @@
-package Day17_Lambda;
+package Day17_LambdaExpression;
 
 @FunctionalInterface
 public interface Calculator {

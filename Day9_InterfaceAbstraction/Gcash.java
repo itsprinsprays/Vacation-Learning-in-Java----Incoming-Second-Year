@@ -1,4 +1,4 @@
-package Day9_OOP;
+package Day9_InterfaceAbstraction;
 
 public class Gcash implements PaymentMethod{
 	

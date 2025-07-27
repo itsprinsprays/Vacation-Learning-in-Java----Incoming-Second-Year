@@ -1,4 +1,4 @@
-package Day9_OOP;
+package Day9_InterfaceAbstraction;
 
 interface say {
 	void sayHello();
