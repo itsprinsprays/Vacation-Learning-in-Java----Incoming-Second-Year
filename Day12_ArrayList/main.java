@@ -37,6 +37,7 @@ public class main {
 		
 		Student s = student.get(0);
 		s.introduce();
+		
 		student.set(0, new Student("Jed","Mar")); // update value
 		Student s1 = student.get(0);
 		s1.introduce();
