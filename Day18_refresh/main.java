@@ -1,6 +1,7 @@
 package Day18_refresh;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class main {
@@ -9,7 +10,7 @@ public class main {
 		// TODO Auto-generated method stub
 		
 		Scanner scan = new Scanner(System.in);
-		ArrayList<student> student = new ArrayList<student>();
+		List<Student> stud = new ArrayList<Student>();
 		
 		boolean bol = true;
 		while(bol) {
@@ -33,15 +34,15 @@ public class main {
 				System.out.println("1.) Add Student");
 				System.out.println("");
 				
-				student.add(new student("","",""));
+				stud.add(Student.fromInput(scan));
 				break;
 				
 			case 2:
 				System.out.println("2.) List All Students");
 				System.out.println("");
 
-				for(int i = 0; i < student.size(); i++) {
-					student s1 = student.get(i);
+				for(int i = 0; i < stud.size(); i++) {
+					Student s1 = stud.get(i);
 					s1.record();
 				}
 				
@@ -51,9 +52,9 @@ public class main {
 				System.out.println("3.) Sort Students by Name");
 				System.out.println("");
 				
-				student.sort((a,b) -> a.getName().compareTo(b.getName()));
-				for(int i = 0; i < student.size(); i++) {
-					student s1 = student.get(i);
+				stud.sort((a,b) -> a.getName().compareTo(b.getName()));
+				for(int i = 0; i < stud.size(); i++) {
+					Student s1 = stud.get(i);
 					s1.record();
 				} 
 				break;
@@ -65,13 +66,13 @@ public class main {
 				String pre = scan.nextLine();
 				
 			
-				student.forEach(s -> {
-					boolean found = false;
+				stud.forEach(s -> {
+					boolean found = true;
 					if(s.getName() != null && s.getName().startsWith(pre)) {
 							s.record();
 							found = true;
-					} if(!found) {
-						System.out.print("No prefix " + pre +" was found" );
+					} else {
+						System.out.println("No prefix " + pre +" was found" );
 					}
 				});
 				break;
@@ -83,7 +84,7 @@ public class main {
 				System.out.println("Delete using ID : ");
 				String del = scan.nextLine();
 				
-				student.removeIf(s -> s.getId().equals(del));
+				stud.removeIf(s -> s.getId().equals(del));
 				System.out.println(del + " DELETED");
 				break;
 			

@@ -1,29 +1,37 @@
 package Day18_refresh;
 import java.util.Scanner;
-public class student {
+public class Student {
 	private String name,email;
 	private String id;
 	Scanner scan = new Scanner(System.in);
 	
+	Student(String name,String email, String id) {
+		this.id = id;
+		this.email = email;
+		this.name = name;
+	}
 	
-	student(String name, String email, String id) throws ValidationException {
+	
+	public static Student fromInput(Scanner scan) throws ValidationException {
 		
 		try {
 		System.out.print("Enter id : ");
-		this.id = scan.nextLine();
+		String id = scan.nextLine();
 		
 		System.out.print("Enter email : ");
-		this.email = scan.nextLine();
-		if(!this.email.contains("@") || !this.email.contains(".")) throw new ValidationException("Email Must Contain @ and .");
+		String email = scan.nextLine();
+		if(!email.contains("@") || !email.contains(".")) throw new ValidationException("Email Must Contain @ and .");
 
 		System.out.print("Enter Name : ");
-		this.name = scan.nextLine();
+		String name = scan.nextLine();
 		
-		System.out.println("Student " + name + " succesfully");
-		
+		System.out.println("Register Succesfully");
+		return new Student(name, email, id);
 		} catch(ValidationException  e) {
 			System.out.println(e);
 		}
+		return null;
+		
 	}
 	
 	void record() {
