@@ -8,9 +8,9 @@ public class main {
 		// TODO Auto-generated method stub
 		List<String> words = List.of("APPLE", "ORANGE1", "BANANA", "AVOCADO", "EGGPLANT7", "ICE");
 		
-		Predicate<String> isUppercase = factoryMethods.startsWith();
+		Predicate<String> isUppercase = factoryMethods.isUppercase();
 		
-		Predicate<String>  startsWith = factoryMethods.startsWith();
+		Predicate<String>  startsWith = factoryMethods.startsWithVowel();
 		
 		Predicate<String>  endsWithDigits = factoryMethods.endsWithDigits();
 		

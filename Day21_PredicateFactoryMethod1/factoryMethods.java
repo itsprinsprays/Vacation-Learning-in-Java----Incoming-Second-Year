@@ -5,11 +5,11 @@ import java.util.function.Predicate;
 
 public class factoryMethods {
 	
-	public static Predicate<String> isUppercase(String sentence) {
-		return word -> word.equals(sentence.toUpperCase()); 
+	public static Predicate<String> isUppercase() {
+		return word -> word.equals(word.toUpperCase()); 
 	}
 	
-	public static Predicate<String> startsWith() {
+	public static Predicate<String> startsWithVowel() {
 		return word -> {
 			if(word == null || word.isEmpty()) return false;
 			char first = Character.toUpperCase(word.charAt(0));
