@@ -1,0 +1,39 @@
+Day 5 : Encapsulation
+
+Encapsulation makes the variable in private, it can just used inside that class and it cant be called in other file. It needs to have a getter and setter. Once the value was done it cant be change anymore unlesss used the setter to change it.
+
+The Setter or "set" keyword along with the name makes the variable accessible to other file and the value can be change.
+ Getter "get" keywords means it can be accessible and be printed 
+
+Example : 
+
+private String name,types;
+	
+	
+	Animal(String name, String types) {
+		this.name = name;
+		this.types = types;
+	}
+	
+	
+	
+	void setName(String name) {
+		this.name = name;
+	}
+	
+	String getName() {
+		return name;
+	}
+	
+	String getTypes() {
+		return types;
+	}
+Bird b = new Bird("Parrot","Bird")
+String name = b.getName(); //get the name
+String type = b.getType(); //set the name
+
+b.setName("Eagle"); //change via setter
+
+Where to used :
+
+Encapsulation is useful when I want to protect data and control how it is accessed or modified — for example, in a banking app to control how balances are changed.
