@@ -5,7 +5,7 @@ public class Methods {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	
-		int num[] = {1,2,3,4,5,21};
+		int num[] = {1,2,35,4,5,21};
 		int result = summation(num);
 		System.out.print("Result : " + result);
 		

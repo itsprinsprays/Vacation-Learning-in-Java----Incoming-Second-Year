@@ -1,0 +1,21 @@
+Day 1 : Methods
+
+Methods is a block of code inside classes that perform a specific task, method can be made from user or it is a built-in method. It can be used if it is "instantiated" inside the main just like the how the Scanner can be called. Other methods can be called directly if they are "static". It can also be made from other file just instantiate it inside the main
+
+Example :
+
+Build-in Method : 
+
+Scanner scan = new Scanner(System.in);
+String input = scan.nextLine(); // calling the method
+
+User-defined method :
+
+public static void greet() {
+	System.out.println("Hello!");
+}
+
+greet(); //since it is static you can just call it directly without instantiating
+
+Where to Use:
+I can use methods to make code cleaner and reusable. Instead of writing the same code many times, I can call the method whenever I need it.
