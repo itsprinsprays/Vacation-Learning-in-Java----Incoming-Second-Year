@@ -1,0 +1,18 @@
+Day 4: Constructors 
+
+- It can have parameters (optional).
+- It is called automatically when the object is created using the new keyword in main.
+- The constructor’s name must match the class name (in Java, the file name usually matches the public class name).
+- It can have field variables (global) and parameter variables (local).
+- If the parameter names are the same as the field names, the this keyword is used to refer to the field. - If the names are different, this is not required.
+
+Example : 
+
+	StudentInfo SI = new StudentInfo(firstname,lastname,year,course,section,midtermGrade,finalGrade);
+		
+		SI.introduceSelf();
+		SI.evaluateGrade();
+
+Where to Used : 
+
+I used the constructors here to get the information of the student then the SI.introduceSelf(); prints the personal information of the studemts. The SI.evaluateGrade(); will evaluate what grades they got.	
