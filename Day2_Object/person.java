@@ -1,4 +1,4 @@
-package Day2_ClassObjects;
+package Day2_Object;
 import Day1_Methods.print;
 
 public class person {

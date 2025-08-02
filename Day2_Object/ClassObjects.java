@@ -1,4 +1,4 @@
-package Day2_ClassObjects;
+package Day2_Object;
 import Day1_Methods.print;
 import java.util.Scanner;
 public class ClassObjects {
@@ -21,6 +21,8 @@ public class ClassObjects {
 		int age = scan.nextInt();
 		
 		person p = new person(firstname,lastname,age,sex);
+		
+		scan.close();
 
 	}
 
