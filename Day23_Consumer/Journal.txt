@@ -1,0 +1,34 @@
+Day 23 : Consumer
+
+Consumer is a functional interface that return nothing. It is usually seen in the List or Collection of Data.
+
+Consumer<String> printFruits = safePrinting("Fruits");
+		
+		fruit(fruits,printFruits); 
+
+SIDE LEARNING
+Tweaks - it is a safety handling in the parameter incase it is null or an empty String
+	//String prefix = (message == null || message.isBlank()) ? "<no message>" : message;
+
+instanceof - it is a condition that checks what datatypes is it 
+	//else if(s instanceof String s1
+
+<T> - is a generic type of parameter that can accept any type of parameter
+	//public static <T> void fruit(List<T> fruits, Consumer<T> condition)
+	//public static <T> Consumer<T> safePrinting(String message) {
+
+List<String> fruits = new ArrayList<>(Arrays.asList("); - accepts a null value compare to List only
+	//List<String> fruits = new ArrayList<>(Arrays.asList("Avocado","","Orange",null,"Grapes")); 
+
+s.getClass().getSimpleName()); - get the data types in the runtime 
+	//else System.out.println(prefix + " | " + s + " | Type: " + s.getClass().getSimpleName());
+
+where to used: 
+
+It can be used to iterate a name or other in the list
+
+
+
+
+
+
