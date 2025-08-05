@@ -1,0 +1,22 @@
+Day 24 : Consumer Object 
+
+A Consumer object is an instance of the Consumer<T> functional interface.
+It accepts a single input and returns nothing, making it ideal for operations like printing or logging.
+It's reusable and helps make your code cleaner and less verbose.
+
+Where to use :
+Consumer Object can be used to organized the code to make it cleaner and it is reusable
+
+	List<Student> stud = new ArrayList<>(Arrays.asList(
+					new Student("Prince",20,"BSIT"),
+					new Student("Andrei",18,"BSCpE"),
+					new Student("Lannce",18,"BSCS")
+					));
+
+Side Learning :
+
+instanceof - this can be used in all wrapper class 
+		instanceof Student student)
+Number - it is a superclass that hold all the numerical wrapper class and it can be narrowedly cast 
+		List<Number> number = new ArrayList<>(Arrays.asList(10, 0, -5, 25));
+
