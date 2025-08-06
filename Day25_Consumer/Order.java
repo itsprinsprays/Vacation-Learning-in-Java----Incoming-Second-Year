@@ -6,13 +6,13 @@ import java.util.List;
 public class Order {
 	
 	private int orderID;
-	private String costumerName;
+	private String customerName;
 	private boolean processed;
 	private List<String> items;
 	
-	Order(int orderID, String costumerName, boolean processed, List<String> items) {
+	Order(int orderID, String customerName, boolean processed, List<String> items) {
 			this.orderID = orderID;
-			this.costumerName = costumerName;
+			this.customerName = customerName;
 			this.processed = processed;
 			this.items = new ArrayList<>(items);
 
@@ -22,14 +22,18 @@ public class Order {
 		
 	}
 	public void details() {
-		System.out.println("Order ID : " + orderID + " | Costumer : " + costumerName + "\r\n" + "Items :" );
-	    for (String item : items) {
-            System.out.println(" - " + item);
-        }
-//	    if(processed == false) {
-//	    	System.out.print("Status : " + "Not Processed");
-//	    } else System.out.print("Status : " + " Processed");
+		System.out.println("Order ID : " + orderID + " | Costumer : " + customerName + "\r\n" + "Items :" );
 		
+		if(items.isEmpty() || items == null) System.out.println("No Items in Order");
+		else {
+			 for (String item : items) {
+		            System.out.println(" - " + item);
+		        }
+		}
+	    if(processed == false) System.out.println("Status : " + "Not Processed");
+	    else System.out.println("Status : " + " Processed");
+		
+	    System.out.println("");
 
     }
 	
@@ -38,8 +42,8 @@ public class Order {
 		return orderID;
 	}
 	
-	String getCostumerName() {
-		return costumerName;
+	String getCustomerName() {
+		return customerName;
 	}
 	
 	boolean isProcessed() {
@@ -54,8 +58,8 @@ public class Order {
 		this.orderID = orderID;
 	}
 	
-	void setCostumerName(String costumerName) {
-		this.costumerName = costumerName;
+	void setCustomerName(String customerName) {
+		this.customerName = customerName;
 	}
 	
 	void setProcessed(boolean processed) {
