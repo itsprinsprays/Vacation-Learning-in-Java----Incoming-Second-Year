@@ -11,27 +11,27 @@ public class Book {
 		this.yearPublish = yearPublish;
 	}
 	
-	String getTitle() {
+	public String getTitle() {
 		return title;
 	}
 	
-	String getAuthor() {
+	public	String getAuthor() {
 		return author;
 	}
 	
-	int getYearPublish() {
+	public int getYearPublish() {
 		return yearPublish;
 	}
 	
-	void setTitle(String title) {
+	public void setTitle(String title) {
 		this.title = title;
 	}
 	
-	void setAuthor(String author) {
+	public void setAuthor(String author) {
 		this.author = author;
 	}
 	
-	void setYearPublish(int yearPublish) {
+	public void setYearPublish(int yearPublish) {
 		this.yearPublish = yearPublish;
 	}
 
