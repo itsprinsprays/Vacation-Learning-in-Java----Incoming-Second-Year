@@ -37,7 +37,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 27   | Predicate and Consumer    | `Day27_Pred_Cons`                 | ✅ Done  |
 | 28   | Predicate and Consumer    | `Day28_Pred_Cons`                 | ✅ Done  |
 | 29   | Function                  | `Day29_Function`                  | ✅ Done  |
-| 30   | Consumer                  | `Day30_Consumer`                  | ✅ Done  |
+| 30   | Function                  | `Day30_Function`                  | ✅ Done  |
 
 
 ---
