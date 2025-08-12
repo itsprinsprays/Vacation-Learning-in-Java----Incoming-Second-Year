@@ -38,6 +38,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 28   | Predicate and Consumer    | `Day28_Pred_Cons`                 | ✅ Done  |
 | 29   | Function                  | `Day29_Function`                  | ✅ Done  |
 | 30   | Function                  | `Day30_Function`                  | ✅ Done  |
+| 31   | Stream                    | `Day31_Stream`                    | ✅ Done  |
 
 
 ---
