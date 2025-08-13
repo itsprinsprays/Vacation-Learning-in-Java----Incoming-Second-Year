@@ -9,7 +9,7 @@ public class Challenge4 {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			List<Student> stud = new ArrayList<>(Arrays.asList(
+			List<Student> stud = new ArrayList<Student>(Arrays.asList(
 					new Student("Prince",20,"BSIT"),
 					new Student("Andrei",18,"BSCpE"),
 					new Student("Lannce",18,"BSCS")

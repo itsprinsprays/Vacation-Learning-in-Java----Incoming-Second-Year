@@ -41,12 +41,7 @@ public class main {
     	
     	System.out.println(ChainInteger.apply(200));
     	
-    	 List<String> names = Arrays.asList("John", "Jane", "Jack", "Anna");
 
-         names.stream()                              // 1. Source
-              .filter(name -> name.startsWith("J")) // 2. Intermediate
-              .map(String::toUpperCase)             // 2. Intermediate
-              .forEach(System.out::println);
 
     	
     	

@@ -39,6 +39,8 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 29   | Function                  | `Day29_Function`                  | ✅ Done  |
 | 30   | Function                  | `Day30_Function`                  | ✅ Done  |
 | 31   | Stream                    | `Day31_Stream`                    | ✅ Done  |
+| 32   | Stream & StaticMethod     | `Day32_ Stream_StaticMethod`      | ✅ Done  |
+
 
 
 ---

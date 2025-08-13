@@ -6,13 +6,13 @@ public class mainPredicate {
 	
 	public static void main(String[] args) {
 		
-		charMethod c = new charMethod();
+
 		
 		List<String> word = List.of("Apple", "Banana", "Avocado", "Carrot");
 		
-		Predicate<String> endsWithA =  c.endsWith('a');
+		Predicate<String> endsWithA =  charMethod.endsWith('a');
 		
-		c.checkWord(word, endsWithA);
+		charMethod.checkWord(word, endsWithA);
 	}
 
 }	

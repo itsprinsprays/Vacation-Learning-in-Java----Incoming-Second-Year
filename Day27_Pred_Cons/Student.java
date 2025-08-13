@@ -22,7 +22,7 @@ public class Student {
 	
 	public static Consumer<Student> printDetails() {
 		return s-> {
-			System.out.println("Neme : " + s.getName());
+			System.out.println("Name : " + s.getName());
 			System.out.println("Age  : " + s.getAge());
 			System.out.println("Gender : " + s.getGender());
 			System.out.println("");

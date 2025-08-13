@@ -11,7 +11,7 @@ public class Predicate3 {
 		
 		Predicate<String> isUpperCase = word -> {
 			boolean result = word.equals(word.toUpperCase());
-			return result;
+			return result;	
 		};
 		
 		Predicate<String> startsWithVowel = word -> {

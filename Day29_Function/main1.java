@@ -20,10 +20,6 @@ public class main1 {
 		   
 		   Student.printStudent(students, gwaFunction);
 		   
-//		   for(Student s : students) {
-//			   System.out.println(gwaFunction.apply(s));
-//		   }
-		   
 
 	}
 

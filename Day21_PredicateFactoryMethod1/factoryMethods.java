@@ -28,17 +28,17 @@ public class factoryMethods {
 	}	
 	
 	public static void checkword(List<String> words, Predicate<String> ConditionIs, Predicate<String> ConditionStarts, Predicate<String> ConditionEnds) {
-		
+			
 		for(String word : words) {
-			if(ConditionIs.and(ConditionStarts).and(ConditionEnds).test(word)) {
+			Predicate<String> combine = ConditionIs.and(ConditionStarts).and(ConditionEnds);
+			if(combine.test(word)) {
 				System.out.println("Checking : " + word);
 				System.out.println("Qualified");
-				System.out.println("");
 			} else {
 				System.out.println("Checking : " + word);
 				System.out.println("Not Qualified");
-				System.out.println("");
 			}
+			System.out.println("");										                                                												
 		}
 	}
 }

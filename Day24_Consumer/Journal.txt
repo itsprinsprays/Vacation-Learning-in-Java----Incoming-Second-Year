@@ -7,7 +7,7 @@ It's reusable and helps make your code cleaner and less verbose.
 Where to use :
 Consumer Object can be used to organized the code to make it cleaner and it is reusable
 
-	List<Student> stud = new ArrayList<>(Arrays.asList(
+	List<Student> stud = new ArrayList<>(Arrasys.asList(
 					new Student("Prince",20,"BSIT"),
 					new Student("Andrei",18,"BSCpE"),
 					new Student("Lannce",18,"BSCS")
