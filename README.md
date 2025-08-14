@@ -40,6 +40,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 30   | Function                  | `Day30_Function`                  | ✅ Done  |
 | 31   | Stream                    | `Day31_Stream`                    | ✅ Done  |
 | 32   | Stream & StaticMethod     | `Day32_ Stream_StaticMethod`      | ✅ Done  |
+| 33   | Stream & InstanceMethod   | `Day33_ Stream_InstanceMethod`    | ✅ Done  |
 
 
 
