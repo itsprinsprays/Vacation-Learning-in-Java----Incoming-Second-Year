@@ -41,6 +41,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 31   | Stream                    | `Day31_Stream`                    | ✅ Done  |
 | 32   | Stream & StaticMethod     | `Day32_ Stream_StaticMethod`      | ✅ Done  |
 | 33   | Stream & InstanceMethod   | `Day33_ Stream_InstanceMethod`    | ✅ Done  |
+| 34   | Stream & ConstructorMethod| `Day34_ Stream_ConstructorMethod` | ✅ Done  |
 
 
 
