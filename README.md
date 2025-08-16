@@ -42,7 +42,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 32   | Stream & StaticMethod     | `Day32_ Stream_StaticMethod`         | ✅ Done  |
 | 33   | Stream & InstanceMethod   | `Day33_ Stream_InstanceMethod`       | ✅ Done  |
 | 34   | Stream & ConstructorMethod| `Day34_ Stream_ConstructorMethod`    | ✅ Done  |
-| 34   | Stream & ReferenceMethod  | `Day34_ Stream_ThreeReferenceMethod` | ✅ Done  |
+| 35   | Stream & ReferenceMethod  | `Day35_ Stream_ThreeReferenceMethod` | ✅ Done  |
 
 
 
