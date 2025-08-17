@@ -43,6 +43,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 33   | Stream & InstanceMethod   | `Day33_ Stream_InstanceMethod`       | ✅ Done  |
 | 34   | Stream & ConstructorMethod| `Day34_ Stream_ConstructorMethod`    | ✅ Done  |
 | 35   | Stream & ReferenceMethod  | `Day35_ Stream_ThreeReferenceMethod` | ✅ Done  |
+| 36   | Stream & Add Toolkit      | `Day35_ Stream_AddToolkit`           | ✅ Done  |
 
 
 
