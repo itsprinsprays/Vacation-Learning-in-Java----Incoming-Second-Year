@@ -71,8 +71,8 @@ public class MainClass {
 	     
 	     List<Employee> newEmployees = employees.stream()
 	    		 						.filter(Employee::isEarning)
-	    		 						.map(Employee::increase)
 	    		 						.map(Employee::capitalizeName)
+	    		 						.map(Employee::increase)
 	    		 						.collect(Collectors.toList());
 	     
 	     newEmployees.forEach(System.out::println);
