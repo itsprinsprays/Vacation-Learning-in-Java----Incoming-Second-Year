@@ -39,12 +39,13 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 29   | Function                  | `Day29_Function`                     | ✅ Done  |
 | 30   | Function                  | `Day30_Function`                     | ✅ Done  |
 | 31   | Stream                    | `Day31_Stream`                       | ✅ Done  |
-| 32   | Stream & StaticMethod     | `Day32_ Stream_StaticMethod`         | ✅ Done  |
-| 33   | Stream & InstanceMethod   | `Day33_ Stream_InstanceMethod`       | ✅ Done  |
-| 34   | Stream & ConstructorMethod| `Day34_ Stream_ConstructorMethod`    | ✅ Done  |
-| 35   | Stream & ReferenceMethod  | `Day35_ Stream_ThreeReferenceMethod` | ✅ Done  |
-| 36   | Stream & Add Toolkit      | `Day36_ Stream_AddToolkit`           | ✅ Done  |
-| 37   | Stream & Add Toolkit      | `Day37_ Stream_AddToolkit`           | ✅ Done  |
+| 32   | Stream & StaticMethod     | `Day32_Stream_StaticMethod`          | ✅ Done  |
+| 33   | Stream & InstanceMethod   | `Day33_Stream_InstanceMethod`        | ✅ Done  |
+| 34   | Stream & ConstructorMethod| `Day34_Stream_ConstructorMethod`     | ✅ Done  |
+| 35   | Stream & ReferenceMethod  | `Day35_Stream_ThreeReferenceMethod`  | ✅ Done  |
+| 36   | Stream & Add Toolkit      | `Day36_Stream_AddToolkit`            | ✅ Done  |
+| 37   | Stream & Add Toolkit      | `Day37_Stream_AddToolkit`            | ✅ Done  |
+| 38   | Maven                     | `Day38_MavenBasic`                   | ✅ Done  |
 
 
 
