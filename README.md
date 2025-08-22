@@ -48,6 +48,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 37   | Stream & Add Toolkit      | `Day37_Stream_AddToolkit`            | ✅ Done  |
 | 38   | Maven                     | `Day38_MavenBasic`                   | ✅ Done  |
 | 39   | Maven                     | `Day39_MavenBasic`                   | ✅ Done  |
+| 40   | Maven                     | `Day40_MavenBasic`                   | ✅ Done  |
 
 
 
