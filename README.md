@@ -49,7 +49,8 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 38   | Maven                     | `Day38_MavenBasic`                   | ✅ Done  |
 | 39   | Maven                     | `Day39_MavenBasic`                   | ✅ Done  |
 | 40   | Maven                     | `Day40_MavenBasic`                   | ✅ Done  |
-| 41   | Dependency Injection      | `Day41_ManualDependencyInjection`    | ✅ Done  |s
+| 41   | Dependency Injection      | `Day41_ManualDependencyInjection`    | ✅ Done  |
+| 42   | Dependency Injection      | `Day42_ManualDependencyInjection`    | ✅ Done  |
 
 
 
