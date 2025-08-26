@@ -52,6 +52,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 41   | Dependency Injection      | `Day41_ManualDependencyInjection`    | ✅ Done  |
 | 42   | Dependency Injection      | `Day42_ManualDependencyInjection`    | ✅ Done  |
 | 43   | Dependency Injection      | `Day43_ManualDependencyInjection`    | ✅ Done  |
+| 44   | Spring Framework          | `Day44_SpringFrameworkBasic`         | ✅ Done  |
 
 
 
