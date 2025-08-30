@@ -55,7 +55,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 44   | Spring Framework          | `Day44_SpringFrameworkBasic`         | ✅ Done  |
 | 45   | Spring Framework          | `Day45_SpringFrameworkBasic`         | ✅ Done  |
 | 46   | SpringBoot Framework      | `Day46_SpringBootBasic`              | ✅ Done  |
-
+| 47   | SpringBoot Framework      | `Day47_SpringBootBasic`              | ✅ Done  |
 
 
 
