@@ -57,6 +57,7 @@ Welcome to my **Vacation Learning in Java** repository! This is a personal chall
 | 46   | SpringBoot Framework      | `Day46_SpringBootBasic`              | ✅ Done  |
 | 47   | SpringBoot Framework      | `Day47_SpringBootBasic`              | ✅ Done  |
 | 48   | SpringBoot and REST API   | `Day48_SpringBootRestAPI`            | ✅ Done  |
+| 49   | SpringBoot and REST API   | `Day49_SpringBootRestAPI`            | ✅ Done  |
 
 
 
